@@ -1,0 +1,7 @@
+bateria,6
+cache,2
+cpu,4
+disco,2
+peso,1.5
+ssd,0.5
+usb,2

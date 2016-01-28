@@ -1,0 +1,8 @@
+bateria,4
+cache,3
+cpu,4
+disco,2
+hdmi,1
+pl-video,1
+ssd,0.5
+tela,11

@@ -1,0 +1,7 @@
+cpu,2
+hdmi,1
+peso,1
+pl-video,1
+ssd,0.25
+tela,11
+usb,2

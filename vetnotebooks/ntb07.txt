@@ -1,0 +1,8 @@
+bateria,2
+cpu,2
+disco,0.5
+hdmi,2
+peso,1
+pl-video,2
+ssd,0.06
+usb,1

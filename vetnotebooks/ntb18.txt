@@ -1,0 +1,7 @@
+bateria,8
+cpu,8
+disco,1
+peso,1.5
+ssd,0.12
+tela,17
+usb,4

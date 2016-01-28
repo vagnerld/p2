@@ -1,0 +1,9 @@
+bateria,4
+cache,3
+cpu,4
+disco,0.25
+peso,1.5
+pl-video,1
+ssd,0.25
+tela,13
+usb,2

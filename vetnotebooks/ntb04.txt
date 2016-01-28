@@ -1,0 +1,8 @@
+bateria,8
+cache,4
+disco,0.75
+hdmi,1
+peso,1
+ssd,0.12
+tela,13
+usb,2
