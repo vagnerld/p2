@@ -4,6 +4,7 @@
 '''
 
 import math
+import random
 
 # define o cosseno entre dois vetores
 def cosseno(lstU, lstV):
@@ -31,9 +32,38 @@ def cosseno(lstU, lstV):
 
 def matrizCos(lstVet):
 
-
+	print('legal')
 
 # fim da matrizCos()
+
+
+def geraMatriz():
+	lstArq = carregaArq('./vetnotebooks/bdev.txt')
+
+	for x in xrange(len(lstArq)):
+		arq = []
+		arq = carregaArq('./vetnotebooks/'+lstArq[x])
+		print(arq);
+
+
+# fim def geraMatriz
+
+
+def carregaArq(arquivo):
+    lst=[]
+    arq=open(arquivo,'rt')
+    
+    linha=arq.readline()
+    while linha!='':
+        linha = linha.replace('\r\n','')
+        lst.append(linha)
+        linha=arq.readline()
+    #fim do while
+    return lst
+# fim carregaArq
+
+
+
 
 
 def main():
@@ -47,8 +77,11 @@ def main():
 	vetS['x'] = 5;
 	vetS['y'] = 6;
 	vetS['z'] = 1;
+	vetvet = [[random.randint(1,9) for x in range(3)] for x in range(10)]
 
+	
 	print(cosseno(vetR,vetS))
+	print(geraMatriz())
 
 	return 0
 # def main
